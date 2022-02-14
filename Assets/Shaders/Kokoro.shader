@@ -66,9 +66,9 @@ Shader "ScreenDraw/Kokoro"
                 [flatten]
                 if (abs(uv.x) >= 4.64 * _K)//isnan(res)
                 {
-                    float expansion = lerp(_Expansion, 0, _K);
+                    float expansion = lerp(_Expansion * sin(_Time.y * .5) * .5, 0, _K);
                     float curve = lerp(0, _Curve, 1 - _Crimp);
-                    float lineY = lerp(1, 2.46, _K) + sin(uv.x * expansion) * curve * abs(uv.x);
+                    float lineY = lerp(1, 2.46, _K) + sin(uv.x * expansion + _Time.y) * curve * abs(uv.x);
                     float thickness = _Thickness * lerp(1, 0, _K);
                     res = 1 - step(thickness, distance(float2(uv.x, lineY), uv));
                 }

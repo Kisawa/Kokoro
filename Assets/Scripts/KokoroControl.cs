@@ -52,6 +52,15 @@ public class KokoroControl : MonoBehaviour
         SetMat();
     }
 
+    private void OnDestroy()
+    {
+        k = 0;
+        crimp = 0;
+        size = originSize;
+        color = originColor;
+        SetMat();
+    }
+
     private void Gesture_TransformStarted(object sender, System.EventArgs e)
     {
         taped = true;
