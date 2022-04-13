@@ -1,6 +1,9 @@
 # Kokoro
 ## A little something for Valentine's Day  
 
+Just draw a full screen mesh, the calculation formula used:  
+* y = x^(((2)/(3)))+(10-x^(2))^(0.5) sin(π x a)  
+
 __I've got it packaged up here:__  
 
 | Platform | url | code |
