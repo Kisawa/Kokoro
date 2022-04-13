@@ -1,8 +1,9 @@
 # Kokoro
 ## A little something for Valentine's Day  
 
-Just draw a full screen mesh, the calculation formula used: (calculate the preview: https://www.geogebra.org/graphing)  
->>>__y = x^(((2)/(3)))+(10-x^(2))^(0.5) sin(π x a)__  
+Just draw a full screen mesh, the calculation formula used:  
+>__y = x^(((2)/(3)))+(10-x^(2))^(0.5) sin(π x a)__  
+Calculate the preview: https://www.geogebra.org/graphing  
 
 
 __I've got it packaged up here:__  
