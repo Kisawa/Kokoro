@@ -2,7 +2,7 @@
 ## A little something for Valentine's Day  
 
 Just draw a full screen mesh, the calculation formula used:  
-__y = x^(((2)/(3)))+(10-x^(2))^(0.5) sin(π x a)__  
+  __y = x^(((2)/(3)))+(10-x^(2))^(0.5) sin(π x a)__  
 
 
 __I've got it packaged up here:__  
